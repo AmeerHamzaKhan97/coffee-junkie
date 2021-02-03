@@ -1,0 +1,215 @@
+
+/* css rules to secify families
+
+font-family: 'Barlow Condensed', sans-serif; */
+
+body{
+    font-family: 'Indie flower',cursive;
+}
+
+header{
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1951&q=80) fixed;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-center{
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-underline{
+    width: 300px;
+    border: 3px solid #F15025;
+    margin: 0px auto 20px;
+}
+
+
+.banner-center a{
+    font-size: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.banner-center a:hover,
+.banner a:focus {
+    color: #F15025;
+    background-color: whitesmoke;
+}
+
+
+/* skill section */
+.title{
+    margin: 40px 0;
+}
+
+
+.title-underline{
+    width:150px;
+    border: 3px solid #F15025;
+    margin: 0px auto 10px auto;
+
+   
+}
+
+
+#skills{
+    padding: 40px;
+    color:#2D3142;
+    margin-bottom: 10px;
+}
+
+.img1{
+    width: 80%;
+    position: relative;
+    bottom: 20px;
+}
+
+.img2 {
+    width: 80%;
+    margin-bottom: 63px;
+}
+
+.img3{
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+/* code not working for this code the below code is doing the work */
+  /* #skills .fa{
+    font-size: 100px;
+    margin-bottom: 10px;
+} */
+
+
+.cof, .bom, .bol{
+    font-size: 100px;
+    margin-bottom: 10px;
+
+}
+
+#skills a {
+    background-color: #F15025;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#skills a:hover{
+    background-color: #ced0ce;
+}
+/* end skill section */
+
+/*  start about */
+
+#about{
+    background-color: #2D3142;
+}
+
+ .pic {
+    height: 500px;
+    background: url(https://images.unsplash.com/photo-1492158244976-29b84ba93025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #2D3142;
+
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/*  end about */
+
+
+/* contract us section */
+ 
+#contract{
+padding: 40px;
+background-color: whitesmoke;
+
+
+
+}
+
+
+.form-control{
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+#contract button{
+    background-color: #353531;
+    font-size: 24px;
+    color: #F15025;
+    margin-bottom: 20px;
+}
+
+#contract button:hover{
+    background-color: #ced0ce;
+}
+
+
+
+/*  end contract us section */
+
+/*  start footer section */
+#footer{
+    padding: 40px;
+    background-color: #353531;
+    
+
+
+}
+
+#footer  .title-underline {
+    margin-bottom: 40px;
+}
+
+.footer-icons{
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.fab {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+ .footer-icons a:hover {
+    color: #F15025;
+}
+
+ .copy {
+    padding: 40px 0;
+    color: #ced0ce;
+}
+
+
+
+
+/*  end footer section */
